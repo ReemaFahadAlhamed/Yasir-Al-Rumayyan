@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Yasir Al-Rumayyan</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 60px 20px;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    .container {
+      background-color: #e8f5e9; 
+      padding: 35px;
+      max-width: 800px;
+      margin: auto;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 128, 0, 0.2);
+      text-align: center;
+    }
+
+    .container h2 {
+      color: #2e7d32;
+      font-size: 26px;
+      margin-bottom: 25px;
+    }
+
+    .container p {
+      color: #000000;
+      font-size: 18px;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .profile-img {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="C:\Users\HP\AppData\Local\Temp\91b3aaf7-c8e9-429e-a2ad-3ba1d529aa60_WEB.zip.a60\WEB\Images\images.jpeg" alt="Images" class="WEB">
+
+    <h2>About Yasir Al-Rumayyan</h2>
+
+    <p>
+      My name is <strong>Yasir Al-Rumayyan</strong>, a distinguished Saudi businessman widely recognized for my leadership in shaping the economic landscape of Saudi Arabia.
+      As the Governor of the <strong>Public Investment Fund (PIF)</strong>, I have been instrumental in directing the fund’s strategic investments both locally and globally.
+      I also serve as the Chairman of <strong>Saudi Aramco</strong> and <strong>Ma’aden</strong>.
+    </p>
+    <p>
+      I was born in <strong>Buraidah, Al-Qassim region</strong>, where I completed my early education. I later moved to Al-Ahsa and earned a <strong>Bachelor’s degree in Accounting</strong> from <strong>King Faisal University</strong>.
+      To refine my strategic skills, I completed executive programs at <strong>Harvard Business School</strong> in the USA.
+    </p>
+    <p>
+      My career began in the <strong>banking sector</strong> with Samba Financial Group and Banque Saudi Fransi.
+      Later, I became the <strong>CEO of Investments Capital</strong>, marking my shift toward capital markets.
+    </p>
+    <p>
+      In 2015, I became an <strong>advisor to the Royal Court</strong>, and in 2016, I was appointed as the <strong>Governor of PIF</strong>.
+      I led investments into sectors like <strong>technology, tourism, sports, and renewable energy</strong>.
+    </p>
+    <p>
+      I also led the <strong>IPO of Saudi Aramco</strong>, the largest in history, and oversaw <strong>PIF’s acquisition of Newcastle United Football Club</strong>.
+      My mission is to promote <strong>innovation, youth empowerment</strong>, and help realize the goals of <strong>Saudi Vision 2030</strong>.
+    </p>
+  </div>
+
+</body>
+</html>

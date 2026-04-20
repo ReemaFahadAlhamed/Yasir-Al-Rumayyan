@@ -1,0 +1,272 @@
+:root {
+    --color-primary: #bedb95;
+    --color-back-light: #ECEFF1;
+    --color-back-dark: #37474f;
+    --spacer-base: 1em;
+    --card-font-size: 90%;
+    --header-font-size: 32px;
+    --header-height: 8em;
+}
+body {
+    font-family:   garamond, georgia, serif;
+    font-size: 1em;
+    background-color: var(--color-back-light);
+}
+header {
+   padding: 0 var(--spacer-base);
+   background-color: var(--color-back-dark);
+   height: var(--header-height);
+}
+header h1 {
+    margin: 0;
+    font-size: var(--header-font-size);
+    color: white;
+}
+header h1 span {
+    color: var(--color-primary);
+}
+
+#link:link, #link:visited {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+#link:hover, #link:active{
+    text-decoration: none;
+    color: #01441e;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+  
+
+* {
+    box-sizing: border-box; 
+}
+
+.backgrounding{
+    background-image: url("3.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0 ; 
+    margin-bottom: 0 ; 
+    padding: 0 ; 
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.backgrounding-content{
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8); /* Improves contrast */
+    background-color: rgba(0,0,0,0.3); /* Optional: subtle text background */
+    padding: 2rem;
+    border-radius: 5px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+div.backgrounding{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+/* add your styles here */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0 ; 
+ }
+
+header{
+    background-color: rgb(67, 68, 68);
+    font-family: Garamond;
+    text-align: center;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: lightgreen;
+}
+
+a:active{
+    text-decoration: none;
+    color: lightgreen;
+}
+
+.flex-container{
+display: flex;
+justify-content: space-around;
+background-color: whitesmoke;
+padding: 2rem;
+max-width: 900px;
+margin: 0 auto;
+}
+
+.section{
+    flex: 1;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    background: rgb(218, 236, 218);
+    margin: 0 10px;
+}
+
+.flex-item{    
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1rem;
+    object-fit: contain;
+}
+
+.flex-title{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.flex-description {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.section:hover{
+    background: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.section:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+body h1{
+    color: white;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: rgb(67, 68, 68);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width:480px)
+{
+    :root {
+        --card-font-size: 100%;
+        --header-font-size: 24px;
+        --header-height: 4em;
+    }
+    .card {
+        width: 100%;
+    }
+  
+}
+
+/* styles for tablet portrait and mobile landscape screens */
+@media only screen and (min-width: 481px)
+and (max-width: 768px)
+{
+    :root {
+        --card-font-size: 100%;
+        --header-height: 5em;
+    }    
+    .card {
+        width: 45%;
+    }    
+}
+
+/* style for contact page */
+.contact 
+{
+		background-color:white;
+		margin-left:15%;
+		margin-right:15%;
+		padding-top:1%;
+    color: #666;
+			padding-left:3%;
+		FONT-SIZE:20PX;
+
+}
+.contHeading
+{
+			text-align:center;
+  background: rgb(218, 236, 218);
+  }
+
+#formrow label
+{
+	display:inline-block;
+	width:30%;
+		FONT-SIZE:20PX;
+}
+#formrow
+{
+	margin:10px;
+}
+#inputname , #inputmessage, #inputemail
+{
+		width:50%;
+		FONT-SIZE:20PX;
+		vertical-align:top;
+}
+#inputmessage
+{
+	height:150px;
+}
+.subButton , .resButton 
+{
+		 background: rgb(218, 236, 218);
+	font-size:18px;
+	padding:5px;
+}
+.subButton:hover , .resButton:hover{
+		 background:white;
+		 color:rgb(218, 236, 218);
+
+}
