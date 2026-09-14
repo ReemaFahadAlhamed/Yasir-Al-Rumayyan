@@ -90,19 +90,19 @@ footer{
 
 
 #vision{
-    background-image: url(theLine.jpg);
+    background-image: url(images/theLine.jpg)
 }
 
 #sports{
-    background-image: url(sport.png);
+    background-image: url(images/sport.png)
 
 }
 #technology{
-    background-image: url(lu2.jpg);
+    background-image: url(images/lu2.jpg)
 
 }
 #gaming{
-    background-image: url(s2.webp);
+    background-image: url(images/s2.webp)
 
 }
 
