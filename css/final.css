@@ -56,7 +56,7 @@ body, html {
 }
 
 .backgrounding{
-    background-image: url("3.jpeg");
+    background-image: url("images/3.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -245,7 +245,7 @@ and (max-width: 768px)
 	width:30%;
 		FONT-SIZE:20PX;
 }
-#formrow
+.formrow
 {
 	margin:10px;
 }
